@@ -399,3 +399,122 @@ body {
     height: 50px;
   }
 }
+
+/* About Section */
+.about-section {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+.about-content {
+  max-width: 800px;
+  text-align: center;
+  background: var(--white);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+.about-content h2 {
+  font-size: 2.2rem;
+  color: var(--blue-dark);
+  margin-bottom: 15px;
+}
+.about-content p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 60px 20px 80px;
+  display: flex;
+  justify-content: center;
+}
+.contact-container {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+.contact-container h2 {
+  font-size: 2.5rem;
+  color: var(--blue-dark);
+  margin-bottom: 10px;
+}
+.contact-container p {
+  color: #666;
+  margin-bottom: 30px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: 'Outfit', sans-serif;
+  background: var(--white);
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--blue-main);
+  box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.1);
+}
+
+/* Footer */
+.footer {
+  background: var(--blue-dark);
+  color: var(--white);
+  padding: 50px 20px 20px;
+}
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.footer-logo h2 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+.footer-logo p {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.9rem;
+}
+.footer-socials {
+  display: flex;
+  gap: 15px;
+}
+.social-icon {
+  color: var(--white);
+  opacity: 0.8;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.social-icon:hover {
+  opacity: 1;
+  transform: translateY(-3px);
+}
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.5);
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
