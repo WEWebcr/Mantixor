@@ -427,6 +427,80 @@ body {
   line-height: 1.7;
 }
 
+/* IT Services Section */
+.it-services-section {
+  padding: 60px 20px 40px;
+  background-color: var(--white);
+}
+
+.it-services-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.it-services-header h2 {
+  font-size: 2.2rem;
+  color: var(--blue-dark);
+  margin-bottom: 15px;
+}
+
+.it-services-header p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.it-services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.it-card {
+  background: var(--bg-color);
+  width: 260px;
+  border-radius: 15px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.02);
+}
+
+.it-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  border-color: rgba(0,0,0,0.05);
+}
+
+.it-card-icon {
+  background: var(--white);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  color: var(--blue-main);
+}
+
+.it-card h3 {
+  font-size: 1.2rem;
+  color: var(--purple-dark);
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.it-card p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
 /* Contact Section */
 .contact-section {
   padding: 60px 20px 80px;
